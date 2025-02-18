@@ -6,8 +6,10 @@ export const sampleTemplates: Template[] = [
     name: 'Brand Voice Guide',
     description: 'Create a comprehensive brand voice guide including tone, vocabulary, and examples.',
     category: 'brand',
-    complexity: 'advanced',
-    requiresAdvancedReasoning: true
+    complexity: 'simple',
+    requiresAdvancedReasoning: false,
+    type: 'content',
+    model: 'gpt-3.5-turbo'
   },
   {
     id: 'competitor-analysis',
