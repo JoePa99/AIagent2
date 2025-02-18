@@ -17,6 +17,8 @@ export const sampleTemplates: Template[] = [
     description: 'Analyze key competitors and identify market opportunities.',
     category: 'research',
     complexity: 'simple',
-    requiresAdvancedReasoning: false
+    requiresAdvancedReasoning: false,
+    type: 'content',
+    model: 'gpt-3.5-turbo'
   }
 ]; 
